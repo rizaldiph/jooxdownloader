@@ -23,12 +23,12 @@
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
+            <span class="sr-only">Toggle Navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-		  <a href="#" class="navbar-brand">DonlodLagoe</a>        </div>
+		  <a href="#" class="navbar-brand">DuwnlodLagu</a>        </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.php"><i class="glyphicon glyphicon-home"></i> Index</a></li>
@@ -39,17 +39,17 @@
     <div class="container">                    
             <div class="panel panel-info" >
                     <div class="panel-heading">
-                        <div class="panel-title">DunludLagu Gratis</div>
+                        <div class="panel-title">DownloadLagu Gratis</div>
                     </div>    
                     <div class="panel-body">
 					<form method="post" id="searchform" action="websearch.php">
-						<p><label>Cari Lagu Disini</label></p>
+						<p><label>Cari Lagu Yang Kamu Mau Disini</label></p>
                          <div style="margin-bottom: 20px" class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
 								<input type="text" name="q" id="q" placeholder="Locked Away" class="form-control" required="required">
                           </div>
                        <div style="margin-top:20px" class="form-group">
-                             <button id="btn-login" type="submit" href="#" class="form-control btn btn-info">Cari Lagu Anda!</button>
+                             <button id="btn-login" type="submit" href="#" class="form-control btn btn-info">Cari Lagu Anda Segera!</button>
                        </div><hr><nav><ul class="pager" id="type" style="display:none;"><li><a id="single" href="#">Single</a></li><li><a id="artis" href="#">Artis</a></li><li><a id="album" href="#">Album</a></li></ul></nav><div id="salsakp"><i>DonlodLagoe</i> adalah layanan download lagu yang disediakan secara gratis untuk anda.Kami menyediakan lagu lagu original disini dengan bit rate sangat tinggi(320kpbs) jadi anda dapat mendengarkan lagunya dengan lancar tanpa takut kualitas musiknya memburuk ketika anda mengeraskan volumenya.Ada juga kualitas <i>TV Size</i> dengan bit rate normal(100kbps) dengan ukuran file lebih kecil dan sangat cocok bagi anda yang mendengarkan musik dengan volume sedang.Situs kami juga bebas dari iklan yang membuat anda semakin nyaman ketika menggunakannya</div><nav id="pagination" class="text-center" style="display:none;">
   <ul class="pagination">
     <li id="btn1" class="active" style="visibility:hidden;"><a href="#">1 <span class="sr-only">(current)</span></a></li>
@@ -149,7 +149,7 @@
 							$("#pagination").css('display', 'none');
 							$("#type").css('display', 'none');
 						},beforeSend:function() {
-							$("#btn-login").html('Loading..');
+							$("#btn-login").html('Loading aa..');
 							$("#salsakp").html('<div class="text-center"><p><img src="assets/images/loader.gif"/></p><p class="text-muted">Tunggu sebentar</p></div>');
 							$("button").attr("disabled", "disabled");
 							$("#pagination").css('display', 'none');
